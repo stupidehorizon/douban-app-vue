@@ -1,6 +1,7 @@
 <template>
   <div class="homepage">
     {{msg}}
+    <p>面向手机用户的页面，请打开调试模式！</p>
   </div>
 </template>
 
@@ -9,7 +10,7 @@ export default {
   name: 'homepage',
   data () {
     return {
-      msg: '主页'
+      msg: '主页!目前只开发了电影页面。请不用期待....'
     }
   }
 }

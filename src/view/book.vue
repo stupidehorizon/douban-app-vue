@@ -9,7 +9,7 @@ export default {
   name: 'homepage',
   data () {
     return {
-      msg: '图书'
+      msg: '图书 开发中....(我自己都不信)'
     }
   }
 }

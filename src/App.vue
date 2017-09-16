@@ -3,10 +3,10 @@
     <nav>
       <router-link :to="{path:'/' }" tag="h1">豆瓣</router-link>
       <ul>
-        <router-link :to="{path:'movie' }" tag='li'>电影</router-link>
-        <router-link :to="{path:'book' }" style="color:#9F7860" tag='li'>图书</router-link>
-        <router-link :to="{path:'broadcast' }" style="color:#9F7860" tag='li' >广播</router-link>
-        <router-link :to="{path:'group' }" style="color:#9F7860" tag='li'>小组</router-link>
+        <router-link :to="{path:'/movie' }" style="color:#2384E8" tag='li'>电影</router-link>
+        <router-link :to="{path:'/book' }" style="color:#9F7860" tag='li'>图书</router-link>
+        <router-link :to="{path:'/broadcast' }" style="color:#E4A813" tag='li' >广播</router-link>
+        <router-link :to="{path:'/group' }" style="color:#2AB8CC" tag='li'>小组</router-link>
       </ul>
       <span></span>
     </nav>
@@ -26,6 +26,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
+  padding-top:10px;
   
   nav{
     height:37px;

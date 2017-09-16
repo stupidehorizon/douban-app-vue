@@ -9,7 +9,7 @@ export default {
   name: 'broadcast',
   data () {
     return {
-      msg: '广播'
+      msg: '广播 开发中....'
     }
   }
 }

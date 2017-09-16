@@ -1,6 +1,12 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Homepage from '@/view/homepage'
+import Movie from '@/view/movie'
+import Book from '@/view/book'
+import Broadcast from '@/view/broadcast'
+import Group from '@/view/group'
+import More from '@/components/more'
+import Detail from '@/view/detail'
 
 Vue.use(Router)
 
@@ -14,19 +20,29 @@ export default new Router({
     {
       path: '/movie',
       name: 'movie',
-      component: require('../view/movie')
+      component: Movie
     },
     {
       path: '/book',
-      component: require('../view/book')
+      component: Book
     },
     {
       path: '/broadcast',
-      component: require('../view/broadcast')
+      component: Broadcast
     },
     {
       path: '/group',
-      component: require('../view/group')
+      component: Group
+    },
+    {
+      path: '/more/:api/:title',
+      name: 'more',
+      component: More
+    },
+    {
+      path: '/detail/:id',
+      name: 'detail',
+      component: Detail
     }
   ]
 })

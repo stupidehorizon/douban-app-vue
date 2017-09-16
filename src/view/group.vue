@@ -9,7 +9,8 @@ export default {
   name: 'homepage',
   data () {
     return {
-      msg: '小组'
+      msg: '小组!开发中....',
+      api: this.$route.params.api
     }
   }
 }
